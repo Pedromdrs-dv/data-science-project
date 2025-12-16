@@ -76,6 +76,3 @@ data-science-project/
 ```
 
 ---
-
-**Disciplina:** Ciência de Dados  
-**Ano:** 2024
