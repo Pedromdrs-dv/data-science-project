@@ -68,11 +68,72 @@ O modelo V2 demonstrou melhor equilíbrio entre sensibilidade e especificidade, 
 - Scikit-learn
 - Matplotlib / Seaborn
 
-## Estrutura do Repositório
+## 🚀 Configuração do Ambiente Virtual
+
+### Criar o ambiente virtual
+
+No terminal, navegue até a pasta do projeto e execute:
+
+**Windows:**
+```bash
+python -m venv venv
 ```
-data-science-project/
-├── Entrega_4_Virginia_Pedro_Vinicius.ipynb  # Notebook principal
-└── README.md                                 # Este arquivo
+
+**Linux/Mac:**
+```bash
+python3 -m venv venv
+```
+
+### Ativar o ambiente virtual
+
+**Windows (CMD):**
+```bash
+venv\Scripts\activate
+```
+
+**Windows (PowerShell):**
+```bash
+venv\Scripts\Activate.ps1
+```
+
+**Linux/Mac:**
+```bash
+source venv/bin/activate
+```
+
+> **Nota:** Quando o ambiente estiver ativado, você verá `(venv)` no início da linha do terminal.
+
+### Instalar as dependências
+
+Com o ambiente virtual ativado, execute:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Executar o Jupyter Notebook
+
+Após instalar as dependências, inicie o Jupyter:
+
+```bash
+jupyter notebook
+```
+
+O navegador abrirá automaticamente. Navegue até o arquivo:
+```
+Entrega_4_Virginia_Pedro_Vinicius.ipynb
+```
+
+### Desativar o ambiente virtual
+
+Quando terminar de trabalhar no projeto:
+
+```bash
+deactivate
 ```
 
 ---
+
+
+
+
